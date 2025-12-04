@@ -92,6 +92,7 @@ main {
 .descriptionText {
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .hightlightsTitle {
@@ -160,6 +161,12 @@ main {
   align-self: center;
   font-size: 32px;
   font-weight: 600;
+}
+
+@media (max-width: 472px) {
+  .price {
+    font-size: 16px;
+  }
 }
 
 .cart,
