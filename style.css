@@ -17,9 +17,9 @@ body {
   column-gap: 22px;
   row-gap: 20px; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
-  gap: 20px 22px;
+  gap: 20px 52px;
   font-family: 'Outfit';
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 header {
-  margin: 0 30px;
+  /* margin: 0 30px; */
 }
 
 @media (max-width: 472px) {
