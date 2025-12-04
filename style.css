@@ -119,6 +119,14 @@ main {
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
+  max-width: 385px;
+}
+
+@media (max-width: 472px) {
+  .moreInfo {
+    width: 100%;
+    max-width: none;
+  }
 }
 
 .color,
