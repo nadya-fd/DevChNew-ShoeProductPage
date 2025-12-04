@@ -3,75 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta name="description" content="shoe product size" />
     <link
       rel="icon"
       href="resources/favicon.ico"
       type="image/x-icon"
       sizes="96x96"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Shoe Product Page | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
-    <!-- 
-    
-    Home - Products - Sneakers
-  
-    Nike Air Zoom Pegasus 38 for Running Men
- 
-    The Nike Air Zoom Pegasus 38 is a high-performance running shoe designed for speed and agility. With its lightweight and responsive midsole, this shoe provides a smooth ride and excellent cushioning. The Pegasus 38 features a full-length Zoom Air unit for added bounce and a more natural stride. The upper is made of a breathable mesh material with a supportive Flyknit construction for a snug and comfortable fit.
- 
-    Hightlights
- 
-    Lightweight and Responsive Midsole.
- 
-    Full-Length Zoom Air Unit.
- 
-    Breathable Mesh Uppe.
- 
-    COLOR
- 
-    Black
- 
-    Size
- 
-    $59.00
- 
-    Add to cart
- 
-    Add to wishlist
-  -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
+    <header>
+      <img
+        src="resources/shoe_image@2x.jpg"
+        alt="shoe image"
+        width="472px"
+        height="646px"
+      />
+    </header>
+    <main>
+      <div class="topMenu">
+        <ul>
+          <li>Home</li>
+          <li>Products</li>
+          <li>Sneakers</li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1 class="descriptionTitle">
+          Nike Air Zoom Pegasus 38 for Running Men
+        </h1>
+        <p class="descriptionText">
+          The Nike Air Zoom Pegasus 38 is a high-performance running shoe
+          designed for speed and agility. With its lightweight and responsive
+          midsole, this shoe provides a smooth ride and excellent cushioning.
+          The Pegasus 38 features a full-length Zoom Air unit for added bounce
+          and a more natural stride. The upper is made of a breathable mesh
+          material with a supportive Flyknit construction for a snug and
+          comfortable fit.
+        </p>
+      </div>
+      <div class="hightlights">
+        <h3 class="hightlightsTitle">Hightlights:</h3>
+        <ul class="">
+          <li>Lightweight and Responsive Midsole.</li>
+          <li>Full-Length Zoom Air Unit.</li>
+          <li>Breathable Mesh Uppe.</li>
+        </ul>
+      </div>
+      <div class="moreInfo">
+        <div class="color">
+          <div class="colorTitle">color</div>
+          <div class="colorName">Black</div>
+        </div>
+        <div class="size">
+          <div class="sizeTitle">size</div>
+          <div class="sizeName">42</div>
+        </div>
+        <div class="price">$59.00</div>
+      </div>
+      <div class="buttons">
+        <button class="cart">Add to cart</button>
+        <button class="wishlist">Add to wishlist</button>
+      </div>
+    </main>
   </body>
 </html>

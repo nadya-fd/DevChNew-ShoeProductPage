@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url(resources/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 36px;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, 532px);
+  justify-content: center;
+  column-gap: 22px;
+  row-gap: 20px; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px 22px;
+  font-family: 'Outfit';
+}
+
+header {
+  margin: 0 30px;
+}
+
+main {
+  display: grid;
+  row-gap: 40px;
+  flex: 1;
+  max-width: 684px;
+  min-width: 428px;
+}
+
+.topMenu li {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.topMenu li::before {
+  content: '-'; /* my separator symbol */
+  margin: 0 0.5em;
+}
+
+.topMenu li:first-child::before {
+  content: ''; /* remove leading separator */
+  margin: 0px;
+}
+
+.topMenu li:last-child {
+  color: #394150;
+  font-weight: 300;
+}
+
+.topMenu li:last-child::before {
+  color: #394150;
+  font-weight: 300;
+}
+
+.descriptionTitle {
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.descriptionText {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hightlightsTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hightlights li {
+  margin-top: 12px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hightlights li::before {
+  content: '•';
+  transform: scale(0.8);
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+.moreInfo {
+  background-color: #f9fafb;
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.color,
+.size {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.colorTitle,
+.sizeTitle {
+  text-transform: uppercase;
+  color: #394150;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.colorName {
+  text-transform: capitalize;
+}
+
+.colorName,
+.sizeName {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.cart,
+.wishlist {
+  padding: 8px 32px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cart {
+  background-color: #652cd1;
+  color: #f9fafb;
+  border: none;
+  margin-right: 20px;
+}
+
+.wishlist {
+  border: 1px solid #d2d5da;
+  background-color: #ffffff;
+}
