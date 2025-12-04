@@ -19,7 +19,7 @@ body {
   display: flex;
   /* justify-content: center; */
   flex-wrap: wrap;
-  gap: 20px 52px;
+  gap: 32px 52px;
   font-family: 'Outfit';
 }
 
@@ -51,6 +51,7 @@ main {
 @media (max-width: 472px) {
   main {
     min-width: 200px;
+    row-gap: 20px;
   }
 }
 
