@@ -156,7 +156,7 @@ main {
 .cart,
 .wishlist {
   padding: 8px 32px;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 16px;
   font-weight: 600;
 }
@@ -171,4 +171,15 @@ main {
 .wishlist {
   border: 1px solid #d2d5da;
   background-color: #ffffff;
+}
+
+@media (max-width: 472px) {
+  .buttons {
+    display: flex;
+  }
+
+  .cart,
+  .wishlist {
+    flex: 1;
+  }
 }
