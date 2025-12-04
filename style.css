@@ -23,8 +23,21 @@ body {
   font-family: 'Outfit';
 }
 
+@media (max-width: 472px) {
+  body {
+    margin: 12px;
+  }
+}
+
 header {
   margin: 0 30px;
+}
+
+@media (max-width: 472px) {
+  header img {
+    width: 388px;
+    height: 531px;
+  }
 }
 
 main {
@@ -33,6 +46,12 @@ main {
   flex: 1;
   max-width: 684px;
   min-width: 428px;
+}
+
+@media (max-width: 472px) {
+  main {
+    min-width: 200px;
+  }
 }
 
 .topMenu li {
